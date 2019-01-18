@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="body">
+  <navigator url='../dices/dices' class='card'>
+    <image src='/images/bg2.png' class='img'></image>
+  </navigator>
+  <view class='card' bindtap='online'>
+     <image src='/images/bg1.png' class='img'></image>
+  </view>
+  <view class='ad'>
+    <ad unit-id="adunit-9659ee027517816e" style="border-radius: 20rpx;"></ad>
+  </view>
+  <!-- <view class='ad'>
+    <ad unit-id="adunit-db5ba2cb36be7998" style="border-radius: 20rpx;"></ad>
+  </view> -->
+</view>

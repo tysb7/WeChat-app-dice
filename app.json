@@ -1,0 +1,13 @@
+{
+  "pages":[    
+    "pages/index/index",
+    "pages/dices/dices"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#D4D6C8",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black",
+    "navigationStyle":"custom"
+  }
+}

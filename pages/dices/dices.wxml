@@ -1,0 +1,20 @@
+<import src="dice/dice-template.wxml" />
+<view class="weui-flex head" style='text-align: center;'>
+  <view class="weui-flex__item" catchtap="reduceDice">
+    <image src="/images/btn-left.png" class='img_btn'></image>
+  </view>
+  <view class="weui-flex__item">
+    <view class="placeholder head_text">{{diceCount}}</view>
+  </view>
+  <view class="weui-flex__item" catchtap="addDice">
+    <image src="/images/btn-right.png" class='img_btn'></image>
+  </view>
+</view>
+<view id="dice-zone">
+  <block wx:for="{{dicesData}}" wx:key="index">
+    <template is="dice-template" data="{{...item}}" />
+  </block>
+</view>
+<view id="btn-roll-container">
+  <button id="btn-roll" bindtap="dianji">{{bt}}</button>
+</view>

@@ -1,0 +1,38 @@
+<template name="diaView">
+  <view class="dialog {{ showDialog ? 'dialog_show' : '' }}">
+    <view class="dialog_mask" bindtap="onClickdiaView" />
+      <view class="dialog_container">
+
+      <!--  //此区域自定义视图  -->
+         <view class="flex_Center" style="height:750rpx;width:100%;">  
+            <view  style="color:#9A9B94;text-align:center;">
+            <image style="height:550rpx;width:550rpx;" src="/images/qccode.png" bindtap="onPhoto"></image>
+            </view>
+            
+        </view>
+        <ad unit-id="adunit-9659ee027517816e" class="ad"></ad>
+    </view>
+  </view>
+</template>
+
+
+<template name="diaCenterView">
+  <view class="dialog {{ showCenterDialog ? 'dialog--show' : '' }}">
+    <view class="dialog__mask" bindtap='onClickdiaCenterView' />
+     <view class="dialog__container"  > 
+        <!--  //此区域自定义视图  -->
+        <view class="flex_Center" style="height:500rpx;width:100%;"> 
+            <view  style="color:#9A9B94;font-size:30rpx;margin-left:30rpx;margin-top:60rpx;">
+            <view>版本号：V2.4</view>
+            <view>日期：2018年07月18日</view>
+            <view>新增内容：</view>
+            <view>a.新增广告</view>
+            <view> </view>
+            <!-- <view>Email：tysb777@gmail.com</view> -->
+            </view>
+            <ad unit-id="adunit-9659ee027517816e" class="ad"></ad>
+        </view>
+
+    </view> 
+  </view>
+</template>
